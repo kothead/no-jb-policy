@@ -82,7 +82,7 @@ public class MainActivity extends ActionBarActivity implements TabListener {
         View decor = getWindow().getDecorView();
         int containerId = getResources().getIdentifier("action_bar_container", "id", "android");
 
-        // check using appcompat library
+        // check if appcompat library is used
         if (containerId == 0) {
             containerId = R.id.action_bar_container;
         }
